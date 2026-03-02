@@ -1,5 +1,4 @@
-# Large data files
-*.csv
+# Large data files (but keep dataset CSVs for reproducibility)
 
 # Python
 __pycache__/

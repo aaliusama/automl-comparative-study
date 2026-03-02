@@ -2,6 +2,8 @@
 
 A comprehensive benchmarking study comparing three AutoML frameworks on real-world regression datasets using a fair, fixed time-budget approach.
 
+**Tags**: #MachineLearning #AutoML #DataScience #Python #Benchmark #SimulatedAnnealing #XGBoost
+
 ## Project Overview
 
 This project implements a custom **Simulated Annealing (SA)** based AutoML system and compares it against industry-standard AutoML frameworks **FLAML** (Fast AutoML) and **TPOT** (Genetic Programming). The comparison focuses on fair algorithm selection, hyperparameter optimization, and performance evaluation across diverse datasets.
@@ -190,9 +192,25 @@ Potential extensions and improvements:
 - Distributed computing for parallel configuration evaluation
 - Transfer learning from similar datasets
 
-## Authors
+## Getting Started
 
-Developed as a comprehensive AutoML benchmarking study focusing on fair comparison methodologies and reproducible machine learning workflows.
+### Quick Start
+```bash
+# Clone the repository
+git clone <repository-url>
+cd automl-comparative-study
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the analysis
+jupyter notebook AutoML_Project1.ipynb
+```
+
+### System Requirements
+- Python 3.8+
+- 4GB RAM minimum (8GB recommended)
+- ~4-5 hours for full benchmark execution
 
 ## References
 
@@ -203,4 +221,4 @@ Developed as a comprehensive AutoML benchmarking study focusing on fair comparis
 
 ---
 
-**Project Status**: ✓ Complete | All requirements fulfilled | Production-ready code and analysis
+**Project Status**: ✓ Complete | Production-Ready | Fully Reproducible
